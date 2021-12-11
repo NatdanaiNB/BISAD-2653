@@ -1,0 +1,66 @@
+.full {
+  font-family: "Prompt", sans-serif;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+img[name="banner"] {
+  margin-top: 140px;
+  width: 100%;
+}
+p[name="rectxt"] {
+  font-weight: 600;
+  font-size: 30px;
+  margin-top: 70px;
+}
+.menu {
+  background-color: #f7f7f7;
+  padding: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 1px solid;
+  border-color: #f7f7f7;
+  margin-bottom: 28px;
+}
+.menu .row .col-5 img {
+  border-radius: 10px;
+}
+.menu:hover {
+  border-color: #28a745;
+}
+
+div[name="amenu"] {
+  margin-bottom: 27px;
+}
+div[name="recmenu"] button {
+  width: 10%;
+}
+.recmenu button {
+  position: absolute;
+  right: 13px;
+  top: 115px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  
+}
+.bonmenu button {
+  position: absolute;
+  right: 13px;
+  top: 115px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+a[name="shop-cart"] {
+  color: black;
+  text-decoration: none;
+}
+a[name="shop-cart"]:hover {
+  color: #008f3e;
+  transition: 0.1s;
+}
+h5[name="cart-count"] {
+  font-family: "Prompt", sans-serif;
+}

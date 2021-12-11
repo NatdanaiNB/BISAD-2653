@@ -1,0 +1,89 @@
+.owl-next {
+  margin-left: 600px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.owl-prev {
+  margin-right: 400px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.owl-carousel:hover .owl-next {
+  opacity: 1;
+}
+.owl-carousel:hover .owl-prev {
+  opacity: 1;
+}
+.owl-dots {
+  width: 0px;
+}
+.b-left,
+.b-right {
+  transition: 0.5s;
+  border-radius: 10%;
+  width: 50px;
+  height: 50px;
+  box-shadow: 0px;
+  background-color: #404040;
+  border-style: solid;
+  border-color: #404040;
+  opacity: 0;
+}
+.carousel:hover .b-left {
+  opacity: 0.6;
+}
+.carousel:hover .b-right {
+  opacity: 0.6;
+}
+ol .carousel-indicators {
+  width: 50px;
+}
+.carousel-indicators li {
+  height: 8px !important;
+  border-radius: 50% !important;
+  width: 9px;
+}
+.carousel-control-prev {
+  opacity: 1;
+  margin-left: -60px;
+}
+
+.carousel-control-next {
+  opacity: 1;
+  margin-right: -60px;
+}
+.owl-btn-prev,
+.owl-btn-next {
+  width: 20px;
+  height: 20px;
+}
+.controls-top {
+  width: 50px;
+  height: 50px;
+}
+.b-u-left,
+.b-u-right {
+  border-radius: 50%;
+  background-color: w;
+}
+.b-u-left:hover,
+.b-u-right:hover {
+  background-color: #dd343c;
+}
+#owl-demo .item {
+  margin: 3px;
+}
+#owl-demo .item img {
+  display: block;
+  width: 100px;
+  height: auto;
+}
+.owl-nav {
+  text-align: center;
+  height: 50px;
+}
+.owl-nav button {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+}

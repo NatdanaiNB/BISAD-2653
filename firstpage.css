@@ -1,0 +1,32 @@
+.choose {
+  font-family: "Prompt", sans-serif;
+}
+.sec {
+  font-size: 28px;
+  font-weight: bold;
+}
+.card[name="picres"] {
+  border-radius: 15px;
+}
+a[name="secres"] {
+  text-decoration: none;
+}
+p[name="nameres"] {
+  color: black;
+  font-weight: 600;
+  margin-top: 8px;
+  font-size: 16px;
+}
+.card[name="picres"] img {
+  border-radius: 15px;
+}
+p[name="desres"] {
+  color: #676767;
+  font-weight: 300;
+  font-size: 14px;
+  margin-top: -10px;
+}
+.choose .row .col-3 a:hover img {
+  opacity: 0.5;
+  transition: 0.3s;
+}

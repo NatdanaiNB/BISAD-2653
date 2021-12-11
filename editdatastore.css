@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.edit-profile {
+  font-family: "Prompt", sans-serif;
+  margin-top: 140px;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+p[name="edtxt"] {
+  font-weight: 600;
+  font-size: 30px;
+}
+p[name="edtxt"] img {
+  width: 20px;
+}
+.edit-profile form {
+  margin-top: 20px;
+  background-color: #f7f7f7;
+  border-radius: 4px;
+  padding: 20px;
+}
+form label {
+  font-weight: 600;
+}
+p[name="lablename"] {
+  font-size: 20px;
+}
+.edit-profile button {
+  margin-top: 1px;
+  position: absolute;
+  right: 0px;
+  top: -100px;
+}
+.editform form img[name="menupic"] {
+  width: 100%;
+}

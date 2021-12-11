@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Search</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="navbar.css" />
+    <link rel="stylesheet" href="search.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="fixed-top shadow">
+      <div class="menu-icon">
+        <span class="fas fa-bars"></span>
+      </div>
+      <div class="logo">
+        <p>
+          KIN KHAO
+          <i
+            class="fa fa-cutlery"
+            aria-hidden="true"
+            style="margin-left: -5px"
+          ></i>
+        </p>
+      </div>
+      <div class="nav-items">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#secres">Menu</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Home</a></li>
+      </div>
+      <div class="search-icon">
+        <span class="fas fa-search"></span>
+      </div>
+      <div class="cancel-icon">
+        <span class="fas fa-times"></span>
+      </div>
+      <form action="#">
+        <input
+          type="search"
+          class="search-data"
+          placeholder="Search"
+          required
+        />
+        <button type="submit" class="fas fa-search"></button>
+      </form>
+      <!-- <div class="profile">
+          <a href=""><i class="fas fa-user-circle fa-lg"></i> Profile</a>
+        </div> -->
+      <div class="Login" style="cursor: pointer">
+        <button type="button" class="btn btn-success">Login</button>
+        <ul class="shadow">
+          <li>
+            <a href="login.html"
+              ><button class="btn btn-success" style="width: 150px">
+                Customer
+              </button></a
+            >
+          </li>
+          <li>
+            <a href="login.html">
+              <button class="btn btn-success" style="width: 150px">
+                Store
+              </button>
+            </a>
+          </li>
+          <li>
+            <a href="login.html"
+              ><button class="btn btn-success" style="width: 150px">
+                Deliver
+              </button>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- case search เจอ -->
+    <div class="search-find">
+      <p name="schtxt">ผลลัพธ์การค้นหา - Search Results</p>
+      <div class="row">
+        <div class="col-4">
+          <div class="menu">
+            <div class="row">
+              <div class="col-5">
+                <img
+                  src="https://d1sag4ddilekf6.cloudfront.net/compressed/items/THITE20210217065312076050/photo/e22632f10af14e599fead7043ce4746b_1618125707175440378.png"
+                  alt=""
+                  width="100%"
+                />
+              </div>
+              <div class="col-7">
+                <p>เกี๊ยวซ่าไก่ เล็ก (6 ชิ้น) และต๊อกทอดคลุกซอส</p>
+                <p>฿200.00</p>
+                <a href="" name="add"
+                  ><i class="fa fa-plus fa-lg" aria-hidden="true"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- case search ไม่เจอ -->
+    <!-- <div class="search-cant-find">
+      <img src="search-256.png" alt="" />
+      <p name="scant-h">We Couldn't Find What You're Looking For</p>
+      <p name="scant-txt">Let's try a different dish</p>
+    </div> -->
+  </body>
+</html>
